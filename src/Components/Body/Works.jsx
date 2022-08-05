@@ -4,7 +4,7 @@ import Onework from "../../assets/svgs/workone.svg";
 import One from "../../assets/svgs/one.svg";
 import WorkTwo from "../../assets/pngs/work2.png";
 import Two from "../../assets/svgs/two.svg";
-import ThreeWork from "../../assets/pngs/work3.png";
+import ThreeWork from "../../assets/svgs/workthree.svg";
 import Three from "../../assets/svgs/three.svg";
 import styles from "./Works.module.scss";
 
@@ -53,6 +53,9 @@ function Works() {
                     Try it all on and send back whatever you're not in love with.
                 </p>
             </div>
+        </div>
+        <div className={styles.try_it} >
+            <p>TRY IT FOR YOURSELF <span style={{ fontWeight: "bold"}}>&gt;</span></p>
         </div>
     </div>
   )

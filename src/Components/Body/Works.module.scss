@@ -37,11 +37,11 @@
             margin-left: 2rem;
             span {
                 font-size: 2.5rem;
-                font-family: "Roboto";
+                // font-family: "Roboto";
             }
             p{
                 width: 50%;
-                font-family: "Roboto";
+                // font-family: "Roboto";
                 margin-top: 1rem;
                 font-size: large;
                 font-weight: 500;
@@ -77,10 +77,10 @@
                 span {
                     font-size: 2.5rem;
                     font-weight: 500;
-                    font-family: "Roboto";
+                    // font-family: "Roboto";
                 }
                 p{
-                    font-family: "Roboto";
+                    // font-family: "Roboto";
                     margin-top: 1rem;
                     font-size: large;
                     font-weight: 500;
@@ -91,7 +91,7 @@
     .work_three{
         margin-top: 15rem;
         display: flex;
-
+        height: 30rem;
         .workthree_pictures{
             flex: 0.5;
             
@@ -101,7 +101,7 @@
                 margin-bottom: -14rem;
             }
             .three_three{
-                margin-left: 17.4rem;
+                margin-left: 21.9rem;
                 margin-top: -10rem;
             }
         }
@@ -111,14 +111,33 @@
             margin-left: 2rem;
             span {
                 font-size: 2.5rem;
-                font-family: "Roboto";
+                // font-family: "Roboto";
             }
             p{
                 width: 80%;
-                font-family: "Roboto";
+                // font-family: "Roboto";
                 margin-top: 1rem;
                 font-size: large;
                 font-weight: 500;
+            }
+        }
+    }
+    .try_it {
+        border: 4px solid #EF8094;
+        text-align: center;
+        margin-top: 5rem;
+        height: 3rem;
+        line-height: 3rem;
+        border-radius: 30px;
+        width: 16rem;
+        margin-right: auto;
+        margin-left: auto;
+
+        p {
+            font-weight: 500;
+            
+            span {
+                font-weight: bold;
             }
         }
     }
