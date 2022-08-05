@@ -1,0 +1,125 @@
+.container{
+    width: 100%;
+    background-color: #FFFFFF;
+    .working{
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        span {
+            margin-left: 45%;
+            font-size:3rem;
+            font-weight: 500;
+        }
+        img {
+            margin-left: 46%;
+
+        }
+    }
+    .work_one{
+        display: flex;
+        margin-top: 2rem;
+
+        .workone_pictures{
+            flex: 0.5;
+            
+            .pic_one{
+                float: right;
+            }
+            .one_one{
+                float: right;
+                margin-right: -6.2rem;
+                margin-top: 2.2rem;
+            }
+        }
+        .desc_one{
+            flex: 0.5;
+            margin-top: 2rem;
+            margin-left: 2rem;
+            span {
+                font-size: 2.5rem;
+                font-family: "Roboto";
+            }
+            p{
+                width: 50%;
+                font-family: "Roboto";
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+        }
+    }
+    .work_two{
+        margin-top: -11rem;
+        .workTwo_right{
+            width: 100%;
+            .workTwo_pictures{
+                .pic_two{
+                    float: right;
+                    background: url("../../assets/pngs/work2-art.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-size: 18rem;
+                    background-position-x: 34rem;
+                    margin-bottom: -15.5rem;
+                    background-position-y: 10rem;
+                    height: 40rem;
+                }
+                .two_two{
+                    margin-left: 40.5rem;
+                }
+            }
+            .workTwo_desc{
+                width: 27%;
+                float: right;
+                margin-right: 11.4rem;
+                margin-top: -2rem;
+
+                span {
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                    font-family: "Roboto";
+                }
+                p{
+                    font-family: "Roboto";
+                    margin-top: 1rem;
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .work_three{
+        margin-top: 15rem;
+        display: flex;
+
+        .workthree_pictures{
+            flex: 0.5;
+            
+            .pic_three{
+                float: right;
+                height: 25rem;
+                margin-bottom: -14rem;
+            }
+            .three_three{
+                margin-left: 17.4rem;
+                margin-top: -10rem;
+            }
+        }
+        .desc_three{
+            flex: 0.4;
+            margin-top: 2rem;
+            margin-left: 2rem;
+            span {
+                font-size: 2.5rem;
+                font-family: "Roboto";
+            }
+            p{
+                width: 80%;
+                font-family: "Roboto";
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+        }
+    }
+}
