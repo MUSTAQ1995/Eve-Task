@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import TopBar from "../../assets/pngs/topbar-desktop.png";
-import Logo from "../../assets/svgs/logo.svg"
+import Logo from "../../assets/svgs/logo.svg";
+import Close from "../../assets/svgs/hamburger-close.svg";
+import Menu from "../../assets/svgs/hamburger.svg";
 import styles from "./Header.module.scss";
 
 function Header() {
+  const [menu, setMenu] = useState(true);
+
+  const handleShowMenu = () => {
+    setMenu(false);
+  };
+
+  const handleHideMenu = () => {
+    setMenu(true)
+  }
   return (
-    <div className={styles.container} >
+    <>
+    {menu ? (
+      <div className={styles.container} >
       <div className={styles.top_bar} >
         <img src={TopBar} alt={TopBar} />
       </div>
@@ -26,7 +39,32 @@ function Header() {
           </div>
         </div>
       </div>
+      <div className={styles.mobile_navbar} >
+        <div className={styles.logo_mobile}  >
+          <img src={Logo} alt={Logo}  />
+        </div>
+        <div className={styles.mobile_menu} onClick={() => handleShowMenu()} >
+          <img src={Menu} alt="Menu" />
+        </div>
+      </div>
     </div>
+    ) : (
+      <div className={styles.show_menu} >
+          <div className={styles.close} onClick={() => handleHideMenu()} >
+            <img src={Close} alt="Close"  />
+          </div>
+          <div className={styles.mobile_list} >
+            <h5>THIS MONTH</h5>
+            <h5>SKIN</h5>
+            <h5>HAIR</h5>
+            <h5>BATH</h5>
+            <h5>SALE</h5>
+            <h5>LOG IN &gt; </h5>
+          </div>
+      </div>
+    )}
+    
+    </>
   )
 }
 

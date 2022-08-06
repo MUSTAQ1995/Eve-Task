@@ -22,7 +22,8 @@ function Works() {
             </div>
             <div className={styles.desc_one} >
                 <span>Setup your profiel {"&"}<br/> preferences</span>
-                <p>Once you create an account, you can start to tell us your likes and dislikes so we can tailor
+                <p>Once you create an account, you can start to tell us 
+                    your likes and dislikes so we can tailor
                     the experience just for you.
                 </p>
             </div>

@@ -1,7 +1,7 @@
 .container{
     background-color: #f5f8ff;
     padding-top: 1rem;
-    display: inline-flex;
+    display: flex;
     height: 31.5rem;
 
     .description{
@@ -40,7 +40,7 @@
 
     .product{
         flex: 0.6;
-
+        margin-left: 15rem;
         .box {
             object-fit: cover;
             height: 46rem;
@@ -53,5 +53,185 @@
             background-position-y: 1rem;
         }
     }
+}
 
+@media only screen and (max-width:1440px){
+    .container{
+        height: 30.55rem !important;
+        // .description{
+          
+        //     span {
+        //         font-size: 2rem !important;
+        //         font-weight: 500 !important;
+        //     }
+        //     p {
+        //         margin-top: 1rem;
+        //         font-size: large;
+        //         font-weight: 500;
+        //     }
+        //     .sign_up{
+             
+        //         width: 57% !important;
+        //         p {
+        //             margin-top: 1rem;
+        //             letter-spacing: 1px;
+        //             font-weight: 500;
+        //         }
+        //     }
+        // }
+        .product{
+            margin-left: 0 !important;
+            .box {
+                object-fit: cover;
+                height: 46rem;
+                width: 54rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 38rem !important;
+                background-position-y: 5rem !important; 
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .container{
+        height: 35.55rem !important;
+        
+       
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .container{
+        height: 30.55rem !important;
+        width: 77rem !important;
+        .description{
+          
+            span {
+                font-size: 2rem !important;
+                font-weight: 500 !important;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+            .sign_up{
+             
+                width: 57% !important;
+                p {
+                    margin-top: 1rem;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .product{
+            margin-left: 0 !important;
+            .box {
+                object-fit: cover;
+                // height: 40rem;
+                // width: 34rem;
+                height: 100%;
+                width: 100%;
+                margin-top: 9rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 21rem;
+                background-position-y: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container{
+        height: 30.55rem !important;
+        width: 77rem !important;
+        .description{
+          
+            span {
+                font-size: 2rem !important;
+                font-weight: 500 !important;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+            .sign_up{
+             
+                width: 57% !important;
+                p {
+                    margin-top: 1rem;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .product{
+            margin-left: 0 !important;
+            .box {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+                margin-top: 9rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 26rem !important;
+                background-position-y: 0rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        display: block;
+        height: 144rem !important;
+        width: 77rem !important;
+
+        .description{
+            margin-left: 7rem;
+            margin-top: 4rem;
+            span {
+                font-size: 8rem !important;
+                font-weight: 500;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: 3rem !important;
+                font-weight: 500;
+            }
+            .sign_up{
+                line-height: 5.4rem !important;
+                margin-top: 4.5rem;
+                width: 44% !important;
+                height: 8.4rem !important;
+                text-align: center;
+                border: 10px solid #EF8094;
+                border-radius: 75px;
+                background-color: #FFFFFF;
+            }
+        }
+
+        .product{
+            margin-left: 0 !important;
+            .box {
+                object-fit: cover;
+                height: 88rem !important;
+                width: 79rem !important;
+                margin-top: 9rem !important;
+                margin-left: -2rem !important;
+                background: none;
+            }
+        }
+    }
 }

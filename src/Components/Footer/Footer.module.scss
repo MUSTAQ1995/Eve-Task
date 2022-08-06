@@ -24,3 +24,24 @@
         justify-content: space-around;
     }
 }
+
+@media only screen and (max-width:1024px){
+    .container{
+        width: 68.5rem !important;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        width: 74.5rem !important;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        width: 68.5rem !important;
+        margin-left: 3rem;
+    }
+}
