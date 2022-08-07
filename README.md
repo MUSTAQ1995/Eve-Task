@@ -16,7 +16,7 @@
   * Then navigate to the Eve-Task  and first run "npm install" after compeltion of install then run "serve -s build", then you can see the result in production mode.
 
 # Technologies used:
-  * As mentioned in the instruction I have used, ReactJS, HTML and SCSS, to complete the challenge.
+  * As mentioned in the instruction I have used, ReactJS, HTML and SASS, to complete the challenge.
   
 # Breakpoints for the Responsive Design:
   * For Mobiles which are equal or less than 600px in screen width, I have showed accoring to the design.
