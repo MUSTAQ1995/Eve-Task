@@ -25,5 +25,6 @@
   * For Desktop at screen width 1920px the design fit good.
 
 # Production error:
-    While trying to run the production mode it was saying that,"cannot be loaded because running scripts is disabled on this system". To solve this issue I have run this     command,"powershell Set-ExecutionPolicy RemoteSigned", if you face the sane error, use the above method.
+    While trying to run the production mode it was saying that,"cannot be loaded because running scripts is disabled on this system". 
+    To solve this issue I have used this command,"powershell Set-ExecutionPolicy RemoteSigned".
   
