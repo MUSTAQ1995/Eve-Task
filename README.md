@@ -23,3 +23,7 @@
   * For tablets I have made two breakpoints at 768px and 1024px for the tablets, accroding to the design.
   * For Laptops at screen width 1366px and at the screen width 1440px, made it as accroing to the design.
   * For Desktop at screen width 1920px the design fit good.
+
+# while strting the in production it was saying that,"cannot be loaded because running scripts is disabled on this system". To solve this issue I have run this command,
+  "powershell Set-ExecutionPolicy RemoteSigned", if you face the sane error, use the above method.
+  
